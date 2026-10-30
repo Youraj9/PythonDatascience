@@ -1,0 +1,57 @@
+[
+  {
+    "id": "python-modern",
+    "title": "Python: Modern and Important",
+    "area": "python",
+    "topics": [
+      {"id":"type_hints","title":"Type hints, dataclasses, Pydantic, and enums","description":"Model data clearly, validate external input, and express fixed choices.","difficulty":"Intermediate","available":true},
+      {"id":"decorators_generators","title":"Decorators, generators, iterators, context managers, and closures","description":"Understand callable wrapping, lazy iteration, and managed resources.","difficulty":"Advanced","available":true},
+      {"id":"oop","title":"OOP in depth: dunder methods, inheritance, composition, protocols, SOLID","description":"Choose object boundaries and interfaces that are easy to extend and test.","difficulty":"Advanced","available":true},
+      {"id":"concurrency","title":"Asyncio, threading, multiprocessing, and the GIL","description":"Choose the right concurrency model for I/O- and CPU-bound work.","difficulty":"Advanced","available":true},
+      {"id":"packaging","title":"Modules, packaging, virtual environments, uv/poetry, logging, and config","description":"Build, configure, and distribute maintainable Python applications.","difficulty":"Intermediate","available":true},
+      {"id":"testing","title":"Testing with pytest, fixtures, and mocking","description":"Design fast, reliable tests for application behavior.","difficulty":"Intermediate","available":true},
+      {"id":"apis_files","title":"Files, regex, APIs, requests/httpx, and FastAPI basics","description":"Work with files and services, and expose a small typed API.","difficulty":"Intermediate","available":true},
+      {"id":"performance","title":"Profiling, vectorization, and memory","description":"Measure performance and optimize the actual bottleneck.","difficulty":"Advanced","available":true},
+      {"id":"clean_code","title":"Clean code, PEP 8, Ruff, pre-commit, and Git workflow","description":"Automate quality checks and collaborate safely on code.","difficulty":"Intermediate","available":true}
+    ]
+  },
+  {
+    "id": "data-science",
+    "title": "Data Science Stack",
+    "area": "data",
+    "topics": [
+      {"id":"numpy_pandas_viz","title":"NumPy, Pandas, Matplotlib, Seaborn, and Plotly","description":"Array operations, data cleaning, joins, time series, and visualization.","difficulty":"Beginner","available":false},
+      {"id":"math_for_ml","title":"Statistics, probability, linear algebra, and calculus intuition","description":"Build the mathematical intuition used to understand model behavior.","difficulty":"Beginner","available":false},
+      {"id":"sql_analysis","title":"SQL for data analysis","description":"Filter, aggregate, join, and reason about analytical datasets.","difficulty":"Beginner","available":false}
+    ]
+  },
+  {
+    "id": "machine-learning",
+    "title": "Machine Learning",
+    "area": "ml",
+    "topics": [
+      {"id":"ml_workflow","title":"ML workflow, framing, splitting, leakage, and baselines","description":"Create a trustworthy first experiment from a real question.","difficulty":"Beginner","available":false},
+      {"id":"supervised","title":"Supervised learning: regression, classification, trees, SVM, boosting","description":"Compare core supervised algorithms, including XGBoost and LightGBM.","difficulty":"Beginner","available":false},
+      {"id":"unsupervised","title":"K-Means, hierarchical clustering, DBSCAN, PCA, and t-SNE","description":"Explore structure and low-dimensional views without labels.","difficulty":"Intermediate","available":false},
+      {"id":"feature_engineering","title":"Feature engineering, encoding, scaling, missing and imbalanced data","description":"Prepare reliable model inputs without leaking information.","difficulty":"Intermediate","available":false},
+      {"id":"evaluation","title":"Evaluation, metrics, cross-validation, bias/variance, and regularization","description":"Select metrics and interpret generalization errors.","difficulty":"Intermediate","available":false},
+      {"id":"tuning_explainability","title":"Tuning, pipelines, model saving, and SHAP explainability","description":"Tune and ship reproducible models with understandable predictions.","difficulty":"Advanced","available":false},
+      {"id":"deep_learning","title":"Neural networks, backpropagation, PyTorch, CNNs, RNNs, and transformers","description":"Learn deep-learning building blocks and model families.","difficulty":"Advanced","available":false},
+      {"id":"nlp_llms","title":"NLP, embeddings, prompt engineering, RAG, and LLM APIs","description":"Build a grounded understanding of modern language applications.","difficulty":"Intermediate","available":false},
+      {"id":"forecasting_recommendations","title":"Time-series forecasting and recommendation systems","description":"Model temporal outcomes and personalized ranking.","difficulty":"Advanced","available":false},
+      {"id":"mlops","title":"MLflow, deployment, Docker, monitoring, and data drift","description":"Track, deploy, and monitor models in production.","difficulty":"Advanced","available":false},
+      {"id":"responsible_ai","title":"Ethics, fairness, and responsible AI","description":"Evaluate harms, fairness trade-offs, and responsible use.","difficulty":"Intermediate","available":false}
+    ]
+  },
+  {
+    "id": "fintech",
+    "title": "Fintech Track",
+    "area": "ml",
+    "topics": [
+      {"id":"credit_risk","title":"Credit-risk scoring","description":"Frame and evaluate a responsible credit-risk model.","difficulty":"Intermediate","available":false},
+      {"id":"fraud_detection","title":"Fraud detection","description":"Work with imbalanced transactions and operational thresholds.","difficulty":"Intermediate","available":false},
+      {"id":"stock_volatility","title":"Stock and volatility forecasting","description":"Explore financial time series, uncertainty, and leakage risks.","difficulty":"Advanced","available":false},
+      {"id":"var","title":"Value at Risk (VaR) basics","description":"Estimate and communicate a portfolio loss threshold.","difficulty":"Intermediate","available":false}
+    ]
+  }
+]
