@@ -27,7 +27,7 @@ def get_prioritized_topics() -> list[dict]:
     return sorted(
         topics,
         key=lambda topic: (
-            (
+            -(
                 diagnostic.get(area_for_module[topic["module_id"]], (0, 0))[1]
                 - diagnostic.get(area_for_module[topic["module_id"]], (0, 0))[0]
             ),
